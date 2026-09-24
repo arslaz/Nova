@@ -34,7 +34,7 @@ import org.maplibre.compose.sources.rememberGeoJsonSource
 import org.maplibre.compose.style.BaseStyle
 import org.maplibre.spatialk.geojson.Position
 import kotlin.time.Duration.Companion.milliseconds
-
+import com.example.nova.ui.map.MyMap
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,25 +48,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-@Composable
-fun MyMap() {
-    val mapState =
-        rememberMapState(
-            baseStyle = BaseStyle.Uri("https://tiles.openfreemap.org/styles/liberty"),
-            initialCameraPosition = CameraPosition(target = Position(latitude = 53.9045, longitude = 27.5615), zoom = 10.0)
 
-        )
-    Box(
-        modifier = Modifier.fillMaxSize()
-    ){
 
-        MaplibreMap (
-            modifier = Modifier.fillMaxSize(),
-            state = mapState
-        )
-    }
-
-}
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {

@@ -42,8 +42,15 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    //maplibre
     runtimeOnly("org.maplibre.compose:maplibre-compose-runtime-opengl-android:0.17.0")
     implementation(libs.maplibre.compose)
+    //MVVM
+    implementation("androidx.activity:activity-compose:1.6.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+    implementation("androidx.compose.material:material-icons-extended")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
