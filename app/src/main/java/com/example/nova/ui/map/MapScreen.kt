@@ -1,6 +1,5 @@
 package com.example.nova.ui.map
 
-import android.icu.text.StringSearch
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,26 +16,18 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import org.maplibre.compose.camera.CameraPosition
 import org.maplibre.compose.map.MaplibreMap
 import org.maplibre.compose.map.rememberMapState
 import org.maplibre.compose.style.BaseStyle
 import org.maplibre.spatialk.geojson.Position
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import java.nio.file.WatchEvent
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.NearMe
 import androidx.compose.material.icons.filled.Place
 import androidx.compose.material.icons.filled.Search
@@ -44,46 +35,47 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconToggleButton
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.ui.draw.blur
-import org.maplibre.compose.expressions.dsl.padding
+import org.maplibre.compose.camera.CameraUpdate
+import org.maplibre.compose.interaction.ClickResult
+import org.maplibre.compose.interaction.MapInteractions
+import org.maplibre.compose.layers.LocationIndicatorLayer
+import org.maplibre.compose.location.LocationPermission
+import org.maplibre.compose.location.LocationState
+import org.maplibre.compose.location.LocationTrackingEffect
+import org.maplibre.compose.location.rememberDefaultHeadingProvider
+import org.maplibre.compose.location.rememberDefaultLocationProvider
+import org.maplibre.compose.location.rememberLocationState
+import org.maplibre.compose.map.LocalMapState
 
 @Composable
 fun MyMap(viewModel: MapViewModel = viewModel()) {
-    val mapState =
-        rememberMapState(
-            baseStyle = BaseStyle.Uri("https://tiles.openfreemap.org/styles/liberty"),
-            initialCameraPosition = CameraPosition(target = Position(latitude = 53.9045, longitude = 27.5615), zoom = 10.0)
 
-        )
     Box(
         modifier = Modifier.fillMaxSize()
     ){
 
-        MaplibreMap (
-            modifier = Modifier.fillMaxSize(),
-            state = mapState
-        )
 
-        val mutableState = viewModel.isMenuOpen
+        val isMenuOpen = viewModel.isMenuOpen
         val isSearchChecked = viewModel.isSearchChecked
         val isSettingsChecked = viewModel.isSettingsChecked
         val isMapChecked = viewModel.isMapChecked
 
-        if (!mutableState) {
-            MapArrowInterface(
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .windowInsetsPadding(WindowInsets.navigationBars),
-                openMenu = { viewModel.openMenu() }
+        val locationProvider = rememberDefaultLocationProvider()
+        val headingProvider = rememberDefaultHeadingProvider()
+
+        val locationState =
+            rememberLocationState(
+                provider = locationProvider,
+                headingProvider = headingProvider,
             )
-        }
-        if (mutableState) {
+
+        MapScreen(viewModel, locationState)
+
+        if (isMenuOpen) {
             MapInterfaceMenu(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .windowInsetsPadding(WindowInsets.navigationBars),
-                closeMenu = { viewModel.closeMenu() },
                 isCheckedMap = isMapChecked,
                 onCheckedChangeMap = { viewModel.toggleMap(it)},
                 isCheckedSearch = isSearchChecked,
@@ -94,29 +86,71 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
             MapInterfacePlace(
                 modifier = Modifier
                     .align(Alignment.BottomEnd),
-                getCurrentLocation = {viewModel.getCurrentLocation()}
+                getCurrentLocation = {
+                    viewModel.onMyLocation()
+                    if (locationState.permission !is LocationPermission.Granted) {
+                        locationState.requestPermission()
+                    }
+                }
 
             )
         }
     }
 
 }
+
 @Composable
-fun MapArrowInterface(
-    modifier: Modifier = Modifier,
-    openMenu: () -> Unit
-){
-    Button(
-        onClick = openMenu,
-        modifier = modifier
-    ) {
-        Text(text = "->")
-    }
+fun MapScreen(viewModel: MapViewModel = viewModel(), locationState: LocationState){
+
+    val mapState =
+        rememberMapState(
+            baseStyle = BaseStyle.Uri("https://tiles.openfreemap.org/styles/liberty"),
+            initialCameraPosition = CameraPosition(target = Position(latitude = 53.9045, longitude = 27.5615), zoom = 10.0),
+
+        ){
+            val mapState = checkNotNull(LocalMapState.current)
+
+            LocationIndicatorLayer(
+                id = "user",
+                locationState = locationState,
+            )
+            LocationTrackingEffect(locationState = locationState) {
+                if(viewModel.isFallowing && !viewModel.isFirstFallowing){
+                    mapState.animateCamera(CameraUpdate(target = currentLocation.position, zoom = 15.0))
+                    viewModel.onFirstFallowing()
+                }else if(viewModel.isFallowing){
+                    mapState.animateCamera(CameraUpdate(target = currentLocation.position))
+                }
+
+            }
+        }
+    MaplibreMap (
+        modifier = Modifier.fillMaxSize(),
+        state = mapState,
+        interactions =
+            MapInteractions {
+                callbacks {
+                    click {
+                        onEvent { event ->
+                            event.position?.let({viewModel.toggleMenuOpen()})
+                            ClickResult.Consume
+                        }
+                    }
+
+
+                }
+                camera {
+                    pan {
+                        onStart { viewModel.onUserLocaction() }
+                    }
+                }
+            }
+    )
+
 }
 @Composable
 fun MapInterfaceMenu(
     modifier: Modifier = Modifier,
-    closeMenu: () -> Unit,
     isCheckedMap: Boolean,
     onCheckedChangeMap: (Boolean) -> Unit,
     isCheckedSearch: Boolean,
@@ -124,18 +158,22 @@ fun MapInterfaceMenu(
     isCheckedSettings: Boolean,
     onCheckedChangeSettings: (Boolean) -> Unit
 ){
+
     Row(
         modifier = modifier
-            .padding(horizontal = 90.dp)
+            .padding(horizontal = 100.dp, vertical = 8.dp)
             .height(height = 60.dp)
             .fillMaxWidth()
             .clip(CircleShape)
-            .background(color = Color.DarkGray)
+            .background(color = Color.Black.copy(0.95f))
             .windowInsetsPadding(WindowInsets.navigationBars),
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        IconToggleButton(checked = isCheckedMap, onCheckedChange = onCheckedChangeMap) {
+        IconToggleButton(
+            checked = isCheckedMap,
+            onCheckedChange = onCheckedChangeMap,
+        ) {
             Icon(
                 Icons.Filled.Place,
                 contentDescription = "Карта",
@@ -143,7 +181,10 @@ fun MapInterfaceMenu(
                 modifier = Modifier.size(size = 32.dp)
             )
         }
-        IconToggleButton(checked = isCheckedSearch, onCheckedChange = onCheckedChangeSearch) {
+        IconToggleButton(
+            checked = isCheckedSearch,
+            onCheckedChange = onCheckedChangeSearch
+        ) {
             Icon(
                 Icons.Filled.Search,
                 contentDescription = "Поиск",
@@ -151,7 +192,10 @@ fun MapInterfaceMenu(
                 modifier = Modifier.size(size = 32.dp)
             )
         }
-        IconToggleButton(checked = isCheckedSettings, onCheckedChange = onCheckedChangeSettings) {
+        IconToggleButton(
+            checked = isCheckedSettings,
+            onCheckedChange = onCheckedChangeSettings
+        ) {
             Icon(
                 Icons.Filled.Settings,
                 contentDescription = "Settings",
@@ -169,13 +213,14 @@ fun MapInterfacePlace(
     modifier: Modifier = Modifier,
     getCurrentLocation: () -> Unit
 ){
+
     IconButton(
         onClick = getCurrentLocation,
         modifier = modifier
             .padding(end = 10.dp, bottom = 100.dp)
             .size(size = 54.dp)
             .clip(CircleShape)
-            .background(Color.DarkGray)
+            .background(Color.Black.copy(alpha = 0.90f))
 
     ) {
         Icon(
