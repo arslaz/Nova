@@ -1,7 +1,9 @@
 package com.example.nova.ui.map
 
+import android.content.res.AssetManager
 import android.text.Layout
 import android.util.Log
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Arrangement
@@ -40,16 +42,28 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconToggleButton
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.LineHeightStyle
+import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 import org.maplibre.compose.camera.CameraUpdate
+import org.maplibre.compose.expressions.dsl.const
+import org.maplibre.compose.expressions.dsl.image
+import org.maplibre.compose.expressions.dsl.interpolate
+import org.maplibre.compose.expressions.dsl.linear
 import org.maplibre.compose.expressions.dsl.zoom
 import org.maplibre.compose.interaction.ClickResult
 import org.maplibre.compose.interaction.MapInteractions
+import org.maplibre.compose.layers.CircleLayer
+import org.maplibre.compose.layers.LineLayer
 import org.maplibre.compose.layers.LocationIndicatorLayer
+import org.maplibre.compose.layers.SymbolLayer
 import org.maplibre.compose.location.LocationPermission
 import org.maplibre.compose.location.LocationState
 import org.maplibre.compose.location.LocationTrackingEffect
@@ -58,6 +72,16 @@ import org.maplibre.compose.location.rememberDefaultLocationProvider
 import org.maplibre.compose.location.rememberLocationState
 import org.maplibre.compose.map.LocalMapState
 import org.maplibre.compose.map.MapState
+import org.maplibre.compose.sources.GeoJsonData
+import org.maplibre.compose.sources.rememberGeoJsonSource
+import org.maplibre.compose.sources.rememberImageSource
+import org.maplibre.nativeffi.style.StyleImage
+import org.maplibre.spatialk.geojson.toJson
+import org.maplibre.compose.expressions.dsl.get
+import org.maplibre.compose.expressions.dsl.Feature
+import org.maplibre.compose.expressions.dsl.asString
+import org.maplibre.compose.expressions.dsl.format
+import org.maplibre.compose.expressions.dsl.span
 
 @Composable
 fun MyMap(viewModel: MapViewModel = viewModel()) {
@@ -66,12 +90,10 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
         modifier = Modifier.fillMaxSize()
     ){
 
-
-        val isMenuOpen = viewModel.isMenuOpen
         val isSearchChecked = viewModel.isSearchChecked
         val isSettingsChecked = viewModel.isSettingsChecked
         val isMapChecked = viewModel.isMapChecked
-
+        val isLightMapThemes = viewModel.isLightMapThemes
         val locationProvider = rememberDefaultLocationProvider()
         val headingProvider = rememberDefaultHeadingProvider()
 
@@ -82,7 +104,7 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
             )
         val mapState =
             rememberMapState(
-                baseStyle = BaseStyle.Uri("https://tiles.openfreemap.org/styles/liberty"),
+                baseStyle = if (isLightMapThemes) BaseStyle.Uri("https://tiles.openfreemap.org/styles/positron") else BaseStyle.Uri("https://tiles.openfreemap.org/styles/fiord"),
                 initialCameraPosition = CameraPosition(target = Position(latitude = 53.9045, longitude = 27.5615), zoom = 10.0),
                 ){
                 val mapState = checkNotNull(LocalMapState.current)
@@ -100,6 +122,34 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
                     }
 
                 }
+                val context = LocalContext.current
+                val geojson = remember {
+                    context.assets.open("export.geojson")
+                        .bufferedReader()
+                        .use { it.readText() }
+                }
+//                val imageBusStop = StyleImage()
+                val busStopMinsk =
+                    rememberGeoJsonSource(GeoJsonData.JsonString(geojson))
+                SymbolLayer(
+                    id = "bus-stop-Minsk-icon",
+                    source = busStopMinsk,
+                    iconImage = image("bus"),
+                    onClick = { features ->
+                        Log.d("clicke","Clicked on ${features[0].toJson()}")
+                        ClickResult.Consume
+                    },
+                    iconAllowOverlap = const(true),
+                    iconOpacity = interpolate(linear(),zoom(),13.0 to const(0.0f), 14.0 to const(1.0f))
+                )
+                SymbolLayer(
+                    id = "bus-stop-Minsk-text",
+                    source = busStopMinsk,
+                    textField = format(span(Feature.get("name").asString())),
+                    textFont = const(listOf("Noto Sans Regular")),
+                    textSize = const(8.sp),
+                    textOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f))
+                )
             }
 
         MapScreen(viewModel, locationState, mapState)
@@ -108,30 +158,28 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
             mapState = mapState,
         )
 
-        if (isMenuOpen) {
-            MapInterfaceMenu(
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .windowInsetsPadding(WindowInsets.navigationBars),
-                isCheckedMap = isMapChecked,
-                onCheckedChangeMap = { viewModel.toggleMap(it)},
-                isCheckedSearch = isSearchChecked,
-                onCheckedChangeSearch = { viewModel.toggleSearch(it)},
-                isCheckedSettings = isSettingsChecked,
-                onCheckedChangeSettings = { viewModel.toggleSettings(it)}
-            )
-            MapInterfacePlace(
-                modifier = Modifier
-                    .align(Alignment.BottomEnd),
-                getCurrentLocation = {
-                    viewModel.onMyLocation()
-                    if (locationState.permission !is LocationPermission.Granted) {
-                        locationState.requestPermission()
-                    }
+        MapInterfaceMenu(
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .windowInsetsPadding(WindowInsets.navigationBars),
+            isCheckedMap = isMapChecked,
+            onCheckedChangeMap = { viewModel.toggleMap(it)},
+            isCheckedSearch = isSearchChecked,
+            onCheckedChangeSearch = { viewModel.toggleSearch(it)},
+            isCheckedSettings = isSettingsChecked,
+            onCheckedChangeSettings = { viewModel.toggleSettings(it)}
+        )
+        MapInterfacePlace(
+            modifier = Modifier
+                .align(Alignment.BottomEnd),
+            getCurrentLocation = {
+                viewModel.onMyLocation()
+                if (locationState.permission !is LocationPermission.Granted) {
+                    locationState.requestPermission()
                 }
+            }
 
-            )
-        }
+        )
     }
 
 }
@@ -142,7 +190,6 @@ fun MapScreen(
     locationState: LocationState,
     mapState: MapState
 ){
-
     MaplibreMap (
         modifier = Modifier.fillMaxSize(),
         state = mapState,
@@ -151,8 +198,8 @@ fun MapScreen(
                 callbacks {
                     click {
                         onEvent { event ->
-                            event.position?.let({viewModel.toggleMenuOpen()})
-                            ClickResult.Consume
+//                            event.position?.let({viewModel.toggleMenuOpen()})
+                            ClickResult.Pass
                         }
                     }
 

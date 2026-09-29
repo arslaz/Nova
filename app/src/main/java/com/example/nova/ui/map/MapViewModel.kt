@@ -26,12 +26,15 @@ class MapViewModel : ViewModel(){
         private set
     var isFirstFallowing by mutableStateOf(false)
         private set
+    var isLightMapThemes by mutableStateOf(true)
+        private set
     fun toggleSearch(checked: Boolean){ isSearchChecked = checked }
     fun toggleSettings(checked: Boolean){ isSettingsChecked = checked }
     fun toggleMap(checked: Boolean){ isMapChecked = checked }
     fun toggleMenuOpen() { isMenuOpen = !isMenuOpen}
-    fun onMyLocation(){ isFallowing = true}
+    fun onMyLocation(){ isFallowing = true }
     fun onUserLocaction(){ isFallowing = false}
     fun onFirstFallowing(){ isFirstFallowing = true}
+    fun toggleMapThemes(){ isLightMapThemes = !isLightMapThemes}
 
 }
