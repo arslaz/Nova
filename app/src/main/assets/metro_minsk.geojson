@@ -1,0 +1,1309 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-31T22:37:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186405",
+        "artist_name": "Архитектор: Н.Лопато. Дизайнер: Н.Грибов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "elevator": "yes",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:en": "Kamiennaja Horka",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "223",
+        "ref:minsktrans": "73219",
+        "start_date": "2005-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2444858",
+        "wikipedia": "be:Каменная Горка (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4368467,
+          53.9068666
+        ]
+      },
+      "id": "node/209186405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186407",
+        "artist_name": "Архитектор: В.Телепнев",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "elevator": "yes",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:en": "Kuncaŭščyna",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "222",
+        "ref:minsktrans": "73218",
+        "start_date": "2005-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2442831",
+        "wikipedia": "be:Кунцаўшчына (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4539802,
+          53.9062312
+        ]
+      },
+      "id": "node/209186407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186410",
+        "addr:city": "Мінск",
+        "addr:postcode": "220121",
+        "addr:street": "вуліца Прытыцкага",
+        "artist_name": "Архитекторы: В.Телепнев при участии А.Дайнеко",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "elevator": "yes",
+        "int_name": "Spartyŭnaja",
+        "name": "Спартыўная",
+        "name:be": "Спартыўная",
+        "name:en": "Spartyŭnaja",
+        "name:ru": "Спортивная",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "221",
+        "start_date": "2005-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q2444837",
+        "wikipedia": "be:Спартыўная (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4795368,
+          53.9084273
+        ]
+      },
+      "id": "node/209186410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186411",
+        "artist_name": "Архитекторы: И.Есьман, И.Камышан, Е.Харькова",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:en": "Puškinskaja",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "220",
+        "start_date": "1995-07-03",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2444846",
+        "wikipedia": "be:Пушкінская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4977357,
+          53.909671
+        ]
+      },
+      "id": "node/209186411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186415",
+        "artist_name": "Архитекторы: Л.Левин, Ю.Гралов. Скульптор: Л.Хоботов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Niamiha",
+        "name": "Няміга",
+        "name:be": "Няміга",
+        "name:en": "Niamiha",
+        "name:ru": "Немига",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "217",
+        "start_date": "1990-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "no",
+        "wikidata": "Q2393960",
+        "wikipedia": "be:Няміга (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5540258,
+          53.9058375
+        ]
+      },
+      "id": "node/209186415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186417",
+        "artist_name": "Архитектор: В.Телепнев. Художник: Ю.Королевич. Дизайнер: Н.Грибов.",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "elevator": "yes",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:en": "Pieršamajskaja",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "215",
+        "start_date": "1990-05-28",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "limited",
+        "wikidata": "Q2446367",
+        "wikipedia": "be:Першамайская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5709184,
+          53.8938442
+        ]
+      },
+      "id": "node/209186417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186421",
+        "artist_name": "Архитекторы: Л.Погорелов, Л.Кустова, О.Вишневская. Скульптор: Н.Рыженков.",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Pralietarskaja",
+        "name": "Пралетарская",
+        "name:be": "Пралетарская",
+        "name:en": "Pralietarskaja",
+        "name:ru": "Пролетарская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "214",
+        "start_date": "1990-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2446419",
+        "wikipedia": "be:Пралетарская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5864709,
+          53.8902509
+        ]
+      },
+      "id": "node/209186421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186423",
+        "artist_name": "Архитекторы: В.Краморенко, О.Ладкин. Художник: В.Скормблевич",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:en": "Traktarny zavod",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "213",
+        "start_date": "1990-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2446467",
+        "wikipedia": "be:Трактарны завод (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6145005,
+          53.8899194
+        ]
+      },
+      "id": "node/209186423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186424",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Лопато, В.Шкарупин. Художник: В.Чайка. Дизайнер: Н.Грибов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:en": "Aŭtazavodskaja",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "211",
+        "start_date": "1997-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q2446377",
+        "wikipedia": "be:Аўтазаводская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6479536,
+          53.8692203
+        ]
+      },
+      "id": "node/209186424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209186425",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Лопато. Дизайнер: Н.Грибов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:en": "Mahilioŭskaja",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "210",
+        "start_date": "2001-09-05",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2446456",
+        "wikipedia": "be:Магілёўская (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6742453,
+          53.861991
+        ]
+      },
+      "id": "node/209186425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248520179",
+        "artist_name": "Архитекторы: Р.Кустов, О.Вишневский, Л.Кустова, В.Телепнев. Художник: Н.Грибов. Благоустройство: Б.Юртин",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:en": "Partyzanskaja",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "212",
+        "start_date": "1997-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q2446499",
+        "wikipedia": "be:Партызанская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6288809,
+          53.8762966
+        ]
+      },
+      "id": "node/248520179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266680843",
+        "artist_name": "Архитектор: В.Телепнев. Художник: В.Воронкевич. Дизайнер: Н.Грибов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:en": "Maladziožnaja",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "219",
+        "start_date": "1995-07-03",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2442805",
+        "wikipedia": "be:Маладзёжная (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5229027,
+          53.9066349
+        ]
+      },
+      "id": "node/266680843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277039518",
+        "artist_name": "Архитектор: Е.Леонович. Художник: В.Довгало.",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Kupalaŭskaja",
+        "name": "Купалаўская",
+        "name:be": "Купалаўская",
+        "name:en": "Kupalaŭskaja",
+        "name:ru": "Купаловская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "216",
+        "start_date": "1990-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2368178",
+        "wikipedia": "be:Купалаўская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5618112,
+          53.9009334
+        ]
+      },
+      "id": "node/277039518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278394361",
+        "artist_name": "Архитекторы: Н.Лопато, В.Шкарупин, В.Телепнев Скульптор: Л.Зильбер. Дизайнер: Н.Грибов",
+        "colour": "red",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Frunzienskaja",
+        "name": "Фрунзенская",
+        "name:be": "Фрунзенская",
+        "name:en": "Frunzienskaja",
+        "name:ru": "Фрунзенская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "218",
+        "start_date": "1990-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "no",
+        "wikidata": "Q2445504",
+        "wikipedia": "be:Фрунзенская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5393148,
+          53.9053364
+        ]
+      },
+      "id": "node/278394361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2899020808",
+        "artist_name": "Архитекторы: В.Телепнев, О.Телепнева, А.Якубец, Скульптор: А.Шаппо",
+        "colour": "green",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Vakzaĺnaja",
+        "line": "Зеленолужская линия",
+        "name": "Вакзальная",
+        "name:be": "Вакзальная",
+        "name:ru": "Вокзальная",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "314",
+        "start_date": "2020-11-06",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q3179335",
+        "wikipedia": "be:Вакзальная (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5466801,
+          53.8898402
+        ]
+      },
+      "id": "node/2899020808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5340830232",
+        "artist_name": "Г. Васильев, Е. Мойсевич",
+        "colour": "green",
+        "int_name": "Niemaršanski Sad",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Немаршанскі Сад",
+        "name:be": "Немаршанскі Сад",
+        "name:en": "Niemaršanski Sad",
+        "name:ru": "Неморшанский Сад",
+        "name:uk": "Неморшанський Сад",
+        "operator": "Минский метрополитен",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "311",
+        "start_date": "2024-12-30",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4317004",
+        "wikipedia": "be:Немаршанскі Сад (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5367949,
+          53.8501732
+        ]
+      },
+      "id": "node/5340830232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5340834021",
+        "colour": "green",
+        "int_name": "Slucki Hasciniec",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Слуцкі Гасцінец",
+        "name:be": "Слуцкі Гасцінец",
+        "name:ru": "Слуцкий Гостинец",
+        "operator": "Минский метрополитен",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "310",
+        "start_date": "2024-12-30",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q4424074",
+        "wikipedia": "be:Слуцкі Гасцінец (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5336813,
+          53.8422717
+        ]
+      },
+      "id": "node/5340834021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11105607961",
+        "artist_name": "В. Телепнев, Т. Жеребцова, Д. Никитенко",
+        "int_name": "Aeradromnaja",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "name:uk": "Аеродромна",
+        "operator": "Минский метрополитен",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "312",
+        "start_date": "2024-12-30",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q13032782",
+        "wikipedia": "be:Аэрадромная (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.547073,
+          53.8677526
+        ]
+      },
+      "id": "node/11105607961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11105993066",
+        "artist_name": "Архитекторы: В.Телепнев, О.Телепнева, А.Кузьмич, Г.Васильев, Скульпторы: П.Войницкий, М.Тарлецкая, Художник: М.Жвирбля",
+        "colour": "green",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Kavaĺskaja Slabada",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Кавальская Слабада",
+        "name:be": "Кавальская Слабада",
+        "name:en": "Kavaĺskaja Slabada",
+        "name:ru": "Ковальская Слобода",
+        "name:uk": "Ковальська Слобода",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "312",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q13032783",
+        "wikipedia": "be:Кавальская Слабада (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5496374,
+          53.8770344
+        ]
+      },
+      "id": "node/11105993066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11105993077",
+        "colour": "green",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:en": "Plošča Franciška Bahuševiča",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "name:uk": "Майдан Франтішка Богушевича",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "315",
+        "start_date": "2020-11-06",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q3179335",
+        "wikipedia": "be:Вакзальная (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5379149,
+          53.8963922
+        ]
+      },
+      "id": "node/11105993077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11105993084",
+        "artist_name": "Архитектор: В.Лопато , Скульптор: М.Петруль",
+        "colour": "green",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Jubiliejnaja plošča",
+        "layer": "-5",
+        "line": "Зеленолужская линия",
+        "name": "Юбілейная плошча",
+        "name:be": "Юбілейная плошча",
+        "name:ru": "Юбилейная площадь",
+        "name:uk": "Ювілейна площа",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "316",
+        "start_date": "2020-11-06",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q4365831",
+        "wikipedia": "be:Юбілейная плошча (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5403848,
+          53.9047267
+        ]
+      },
+      "id": "node/11105993084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814162",
+        "artist_name": "Архитекторы: В.Ивличев, Е.Леонович, В.Очайкин, К.Энштейн. Художники: В.Чайка, С.Котович",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "name:zh": "文化研究所",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "114",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q2368263",
+        "wikipedia": "be:Інстытут культуры (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.540732,
+          53.8858665
+        ]
+      },
+      "id": "node/12532814162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814164",
+        "artist_name": "Архитектор: В.Телепнев",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Malinaŭka",
+        "layer": "-5",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "110",
+        "ref:minsktrans": "230018",
+        "start_date": "2014-06-03",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q1992961",
+        "wikipedia": "be:Малінаўка (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4748613,
+          53.8499141
+        ]
+      },
+      "id": "node/12532814164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814166",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Николаевич",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Piatroŭščyna",
+        "layer": "-5",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:en": "Piatroŭščyna",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "111",
+        "ref:minsktrans": "133332",
+        "start_date": "2012-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q1988702",
+        "wikipedia": "be:Пятроўшчына (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4861839,
+          53.8647388
+        ]
+      },
+      "id": "node/12532814166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814168",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Николаевич. Скульптор: В.Скромблевич. Дизайнер: Н.Грибов.",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Michalova",
+        "name": "Міхалова",
+        "name:be": "Міхалова",
+        "name:en": "Michalova",
+        "name:ru": "Михалово",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "112",
+        "ref:minsktrans": "133333",
+        "start_date": "2012-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q1988673",
+        "wikipedia": "be:Міхалова (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4971391,
+          53.8768793
+        ]
+      },
+      "id": "node/12532814168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814171",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Николаевич Скульптор: М.Петрусь.",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Hrušaŭka",
+        "name": "Грушаўка",
+        "name:be": "Грушаўка",
+        "name:en": "Hrušaŭka",
+        "name:ru": "Грушевка",
+        "name:uk": "Грушівка",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "113",
+        "ref:minsktrans": "133330",
+        "start_date": "2012-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q1988573",
+        "wikipedia": "be:Грушаўка (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5148888,
+          53.8867145
+        ]
+      },
+      "id": "node/12532814171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814172",
+        "alt_name:en": "Lenin Square",
+        "artist_name": "Архитекторы: В.Бартошевич, Ю.Градов, Л.Левин, С.Тылевич. Художник: В.Мигаль. Скульптор:А.Аникейчик",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Plošča Lienina",
+        "name": "Плошча Леніна",
+        "name:be": "Плошча Леніна",
+        "name:de": "Leninplatz",
+        "name:en": "Plošča Lienina",
+        "name:ru": "Площадь Ленина",
+        "name:zh": "列宁广场",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "115",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2368186",
+        "wikipedia": "be:Плошча Леніна (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5478131,
+          53.8927643
+        ]
+      },
+      "id": "node/12532814172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814173",
+        "artist_name": "Архитекторы: В.Бартошевич, Ю.Градов, Л.Левин, С.Тылевич. Художник: В.Мигаль. Скульптор:А.Аникейчик",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Kastryčnickaja",
+        "name": "Кастрычніцкая",
+        "name:be": "Кастрычніцкая",
+        "name:en": "Kastryčnickaja",
+        "name:ru": "Октябрьская",
+        "name:zh": "十月站",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "116",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2625749",
+        "wikipedia": "be:Кастрычніцкая (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5621727,
+          53.9020905
+        ]
+      },
+      "id": "node/12532814173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814176",
+        "artist_name": "Архитекторы: В.Вязгин, Б.Ларченко, Б.Школьников. Художники: А.В.Довгало, В.Стельмашонок",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "117",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2368223",
+        "wikipedia": "be:Плошча Перамогі (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5762446,
+          53.9094694
+        ]
+      },
+      "id": "node/12532814176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814177",
+        "artist_name": "Архитекторы: А.Зензин, М.Пирогов при участии К.Филипповича. Художники: В.Чурило, С.Соколов",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "118",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2625686",
+        "wikipedia": "be:Плошча Якуба Коласа (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5840538,
+          53.9158336
+        ]
+      },
+      "id": "node/12532814177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814178",
+        "artist_name": "Архитекторы: А.Зензин, М.Пирогов при участии К.Филипповича. Художники: В.Чурило, С.Соколов",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Akademija navuk",
+        "name": "Акадэмія навук",
+        "name:be": "Акадэмія навук",
+        "name:en": "Akademija navuk",
+        "name:ru": "Академия наук",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "119",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2625743",
+        "wikipedia": "be:Акадэмія навук (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5993438,
+          53.9217548
+        ]
+      },
+      "id": "node/12532814178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814181",
+        "artist_name": "Архитекторы: К.Вязгин, В.Кривошеев, В.Соколов, Б.Юртин. Художник: Ю.Идриксон",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:en": "Park Čaliuskincaŭ",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "120",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2625698",
+        "wikipedia": "be:Парк Чалюскінцаў (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6137161,
+          53.9242151
+        ]
+      },
+      "id": "node/12532814181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814182",
+        "artist_name": "Архитекторы: Ю.Ивахнишин, Л. Кустова, Л.Погорелов. Художники: В.Довгайло, В.Стельмашонок",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "121",
+        "start_date": "1984-06-30",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "no",
+        "wikidata": "Q2371109",
+        "wikipedia": "be:Маскоўская (станцыя метро, Мінск)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6281371,
+          53.9280537
+        ]
+      },
+      "id": "node/12532814182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814184",
+        "artist_name": "Архитекторы: Е.Леонович, В.Мательский",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "122",
+        "ref:minsktrans": "73197",
+        "start_date": "1986-12-31",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q46162",
+        "wikipedia": "be:Усход (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6513471,
+          53.9344505
+        ]
+      },
+      "id": "node/12532814184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814186",
+        "artist_name": "Архитекторы: В.Телепнев, Н.Николаевич при участии О.Телепневой",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Barysaŭski trakt",
+        "name": "Барысаўскі тракт",
+        "name:be": "Барысаўскі тракт",
+        "name:en": "Barysaŭski trakt",
+        "name:ru": "Борисовский тракт",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "123",
+        "ref:minsktrans": "73196",
+        "start_date": "2007-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q2371226",
+        "wikipedia": "be:Барысаўскі тракт (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6666432,
+          53.9387279
+        ]
+      },
+      "id": "node/12532814186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532814188",
+        "artist_name": "В.Телепнев, Н.Николаевич при участии О.Телепневой",
+        "colour": "blue",
+        "contact:email": "mail@metropoliten.by",
+        "contact:phone": "+375 17 383-83-83",
+        "contact:website": "https://metropoliten.by/",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "operator": "КУП «Минский метрополитен»",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "124",
+        "ref:minsktrans": "73195",
+        "start_date": "2007-11-07",
+        "station": "subway",
+        "subway": "yes",
+        "transport": "subway",
+        "wheelchair": "yes",
+        "wikidata": "Q743932",
+        "wikipedia": "be:Уручча (станцыя метро)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6879112,
+          53.9453816
+        ]
+      },
+      "id": "node/12532814188"
+    }
+  ]
+}

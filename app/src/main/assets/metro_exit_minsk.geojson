@@ -1,0 +1,5405 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-28T02:16:18Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694300",
+        "int_name": "Kastryčnickaja/Kupalaŭskaja",
+        "name": "Кастрычніцкая/Купалаўская",
+        "name:be": "Кастрычніцкая/Купалаўская",
+        "name:ru": "Октябрьская/Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5605135,
+          53.901571
+        ]
+      },
+      "id": "node/207694300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694304",
+        "int_name": "Kastryčnickaja/Kupalaŭskaja",
+        "layer": "-1",
+        "name": "Кастрычніцкая/Купалаўская",
+        "name:be": "Кастрычніцкая/Купалаўская",
+        "name:ru": "Октябрьская/Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "1-2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5609045,
+          53.9012821
+        ]
+      },
+      "id": "node/207694304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694307",
+        "colour": "red",
+        "int_name": "Kupalaŭskaja",
+        "name": "Купалаўская",
+        "name:be": "Купалаўская",
+        "name:ru": "Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5623627,
+          53.900312
+        ]
+      },
+      "id": "node/207694307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694309",
+        "colour": "blue",
+        "int_name": "Kastryčnickaja",
+        "name": "Кастрычніцкая",
+        "name:be": "Кастрычніцкая",
+        "name:ru": "Октябрьская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5627281,
+          53.9028936
+        ]
+      },
+      "id": "node/207694309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694311",
+        "colour": "blue",
+        "int_name": "Kastryčnickaja",
+        "name": "Кастрычніцкая",
+        "name:be": "Кастрычніцкая",
+        "name:ru": "Октябрьская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "3-1",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5634673,
+          53.902484
+        ]
+      },
+      "id": "node/207694311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694320",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5827658,
+          53.9152922
+        ]
+      },
+      "id": "node/207694320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694322",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5833791,
+          53.9150062
+        ]
+      },
+      "id": "node/207694322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694324",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5818079,
+          53.9157357
+        ]
+      },
+      "id": "node/207694324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694326",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.582413,
+          53.9161278
+        ]
+      },
+      "id": "node/207694326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207694327",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5843792,
+          53.9163476
+        ]
+      },
+      "id": "node/207694327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207695493",
+        "colour": "blue",
+        "int_name": "Akademija navuk",
+        "name": "Акадэмія навук",
+        "name:be": "Акадэмія навук",
+        "name:ru": "Академия наук",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5975364,
+          53.9218357
+        ]
+      },
+      "id": "node/207695493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207696798",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6519981,
+          53.9349765
+        ]
+      },
+      "id": "node/207696798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207696836",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-1",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6495091,
+          53.9342991
+        ]
+      },
+      "id": "node/207696836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207697697",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6142373,
+          53.9246087
+        ]
+      },
+      "id": "node/207697697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207704345",
+        "colour": "blue",
+        "name": "Плошча Леніна",
+        "name:be": "Плошча Леніна",
+        "name:ru": "Площадь Ленина",
+        "network": "Минский метрополитен",
+        "network:be": "Мінскі метрапалітэн",
+        "network:ru": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5486263,
+          53.8914084
+        ]
+      },
+      "id": "node/207704345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209077826",
+        "int_name": "Frunzienskaja",
+        "name": "Фрунзенская",
+        "name:be": "Фрунзенская",
+        "name:ru": "Фрунзенская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.540701,
+          53.9053359
+        ]
+      },
+      "id": "node/209077826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209079644",
+        "int_name": "Frunzienskaja",
+        "name": "Фрунзенская",
+        "name:be": "Фрунзенская",
+        "name:ru": "Фрунзенская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5413336,
+          53.9052511
+        ]
+      },
+      "id": "node/209079644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209080585",
+        "colour": "red",
+        "int_name": "Frunzienskaja",
+        "name": "Фрунзенская",
+        "name:be": "Фрунзенская",
+        "name:ru": "Фрунзенская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5378863,
+          53.9056182
+        ]
+      },
+      "id": "node/209080585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089094",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4946055,
+          53.9097099
+        ]
+      },
+      "id": "node/209089094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089304",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4964471,
+          53.9098388
+        ]
+      },
+      "id": "node/209089304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089438",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4946797,
+          53.9092795
+        ]
+      },
+      "id": "node/209089438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089762",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4964991,
+          53.9093815
+        ]
+      },
+      "id": "node/209089762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089919",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4987625,
+          53.9099629
+        ]
+      },
+      "id": "node/209089919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209089958",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4988725,
+          53.9095811
+        ]
+      },
+      "id": "node/209089958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209091048",
+        "colour": "red",
+        "int_name": "Spartyŭnaja",
+        "name": "Спартыўная",
+        "name:be": "Спартыўная",
+        "name:ru": "Спортивная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4814202,
+          53.9087959
+        ]
+      },
+      "id": "node/209091048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209091546",
+        "colour": "red",
+        "int_name": "Spartyŭnaja",
+        "name": "Спартыўная",
+        "name:be": "Спартыўная",
+        "name:ru": "Спортивная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4814984,
+          53.9083319
+        ]
+      },
+      "id": "node/209091546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209091547",
+        "colour": "red",
+        "int_name": "Spartyŭnaja",
+        "name": "Спартыўная",
+        "name:be": "Спартыўная",
+        "name:ru": "Спортивная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4803231,
+          53.9087191
+        ]
+      },
+      "id": "node/209091547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209091702",
+        "colour": "red",
+        "int_name": "Spartyŭnaja",
+        "name": "Спартыўная",
+        "name:be": "Спартыўная",
+        "name:ru": "Спортивная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4804133,
+          53.9082749
+        ]
+      },
+      "id": "node/209091702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209159738",
+        "colour": "red",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4549693,
+          53.9060383
+        ]
+      },
+      "id": "node/209159738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209161685",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4365912,
+          53.9065308
+        ]
+      },
+      "id": "node/209161685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209161853",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4354691,
+          53.9063946
+        ]
+      },
+      "id": "node/209161853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209161866",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4349802,
+          53.9066075
+        ]
+      },
+      "id": "node/209161866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209162167",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.436679,
+          53.907246
+        ]
+      },
+      "id": "node/209162167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209165307",
+        "colour": "red",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4533365,
+          53.9059746
+        ]
+      },
+      "id": "node/209165307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209165680",
+        "colour": "red",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4532441,
+          53.9064629
+        ]
+      },
+      "id": "node/209165680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/209166239",
+        "colour": "red",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4548272,
+          53.9065901
+        ]
+      },
+      "id": "node/209166239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248520232",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6304432,
+          53.8748022
+        ]
+      },
+      "id": "node/248520232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248520459",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.615325,
+          53.889471
+        ]
+      },
+      "id": "node/248520459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248520460",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6154771,
+          53.8896839
+        ]
+      },
+      "id": "node/248520460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248521117",
+        "colour": "blue",
+        "name": "Плошча Леніна",
+        "name:be": "Плошча Леніна",
+        "name:ru": "Площадь Ленина",
+        "network": "Минский метрополитен",
+        "network:be": "Мінскі метрапалітэн",
+        "network:ru": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5483591,
+          53.89181
+        ]
+      },
+      "id": "node/248521117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248521388",
+        "colour": "blue",
+        "int_name": "Barysaŭski trakt",
+        "name": "Барысаўскі тракт",
+        "name:be": "Барысаўскі тракт",
+        "name:ru": "Борисовский тракт",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.666508,
+          53.9384328
+        ]
+      },
+      "id": "node/248521388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250051780",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6502176,
+          53.8681932
+        ]
+      },
+      "id": "node/250051780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253444447",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6511076,
+          53.8687912
+        ]
+      },
+      "id": "node/253444447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/260171202",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6472615,
+          53.8689548
+        ]
+      },
+      "id": "node/260171202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/260171994",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6498133,
+          53.8684379
+        ]
+      },
+      "id": "node/260171994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/260174003",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.647935,
+          53.869779
+        ]
+      },
+      "id": "node/260174003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/260174762",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6465955,
+          53.8697957
+        ]
+      },
+      "id": "node/260174762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/263061831",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4363144,
+          53.9074804
+        ]
+      },
+      "id": "node/263061831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264939369",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6463939,
+          53.8693998
+        ]
+      },
+      "id": "node/264939369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264939969",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6465279,
+          53.8692092
+        ]
+      },
+      "id": "node/264939969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264942419",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6478917,
+          53.8696592
+        ]
+      },
+      "id": "node/264942419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264942905",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.64743,
+          53.8690516
+        ]
+      },
+      "id": "node/264942905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265517660",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6742683,
+          53.8623226
+        ]
+      },
+      "id": "node/265517660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277477191",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5832478,
+          53.9156025
+        ]
+      },
+      "id": "node/277477191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277477198",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:en": "Jakuba Kolasa square",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5837584,
+          53.9152554
+        ]
+      },
+      "id": "node/277477198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278081351",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-2",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.652651,
+          53.9351528
+        ]
+      },
+      "id": "node/278081351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278081502",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.650147,
+          53.9344752
+        ]
+      },
+      "id": "node/278081502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278213712",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6119611,
+          53.9239546
+        ]
+      },
+      "id": "node/278213712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278213891",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6148441,
+          53.9247634
+        ]
+      },
+      "id": "node/278213891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278663404",
+        "colour": "red",
+        "int_name": "Kupalaŭskaja",
+        "name": "Купалаўская",
+        "name:be": "Купалаўская",
+        "name:en": "Kupalaŭskaja",
+        "name:ru": "Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5626295,
+          53.9001281
+        ]
+      },
+      "id": "node/278663404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278663450",
+        "int_name": "Kastryčnickaja/Kupalaŭskaja",
+        "name": "Кастрычніцкая/Купалаўская",
+        "name:be": "Кастрычніцкая/Купалаўская",
+        "name:ru": "Октябрьская/Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-3",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5606686,
+          53.9018456
+        ]
+      },
+      "id": "node/278663450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249302",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4949449,
+          53.9099505
+        ]
+      },
+      "id": "node/279249302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249311",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.495982,
+          53.9100628
+        ]
+      },
+      "id": "node/279249311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249328",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4961614,
+          53.9091261
+        ]
+      },
+      "id": "node/279249328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249426",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4951122,
+          53.9090743
+        ]
+      },
+      "id": "node/279249426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249805",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4982012,
+          53.909536
+        ]
+      },
+      "id": "node/279249805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279249807",
+        "colour": "red",
+        "int_name": "Puškinskaja",
+        "name": "Пушкінская",
+        "name:be": "Пушкінская",
+        "name:ru": "Пушкинская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4981359,
+          53.9099139
+        ]
+      },
+      "id": "node/279249807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/280262015",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4361765,
+          53.9063408
+        ]
+      },
+      "id": "node/280262015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/280695439",
+        "colour": "red",
+        "int_name": "Niamiha",
+        "name": "Няміга",
+        "name:be": "Няміга",
+        "name:ru": "Немига",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5535343,
+          53.9061488
+        ]
+      },
+      "id": "node/280695439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/366240786",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.61511,
+          53.9244286
+        ]
+      },
+      "id": "node/366240786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/373147309",
+        "colour": "red",
+        "int_name": "Kuncaŭščyna",
+        "name": "Кунцаўшчына",
+        "name:be": "Кунцаўшчына",
+        "name:ru": "Кунцевщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4543464,
+          53.906581
+        ]
+      },
+      "id": "node/373147309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/438131821",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6145096,
+          53.9242741
+        ]
+      },
+      "id": "node/438131821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/455998325",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5817371,
+          53.9159688
+        ]
+      },
+      "id": "node/455998325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/455998327",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5819813,
+          53.9161183
+        ]
+      },
+      "id": "node/455998327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/456000846",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.582498,
+          53.9160178
+        ]
+      },
+      "id": "node/456000846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/456000849",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5821521,
+          53.9156534
+        ]
+      },
+      "id": "node/456000849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/456018181",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5827212,
+          53.9158441
+        ]
+      },
+      "id": "node/456018181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/457862402",
+        "colour": "red",
+        "int_name": "Niamiha",
+        "name": "Няміга",
+        "name:be": "Няміга",
+        "name:ru": "Немига",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5545775,
+          53.9055259
+        ]
+      },
+      "id": "node/457862402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698193",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5742584,
+          53.9089564
+        ]
+      },
+      "id": "node/473698193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698196",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5744514,
+          53.9092412
+        ]
+      },
+      "id": "node/473698196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698197",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5748707,
+          53.9091155
+        ]
+      },
+      "id": "node/473698197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698206",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5753984,
+          53.9081054
+        ]
+      },
+      "id": "node/473698206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698209",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5757929,
+          53.9084447
+        ]
+      },
+      "id": "node/473698209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473698211",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5759061,
+          53.9081863
+        ]
+      },
+      "id": "node/473698211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473722182",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5746817,
+          53.9082535
+        ]
+      },
+      "id": "node/473722182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473722186",
+        "alt_name": "Круглая площадь",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:de": "Siegesplatz",
+        "name:en": "Victory Square",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5743119,
+          53.9085072
+        ]
+      },
+      "id": "node/473722186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538457980",
+        "colour": "blue",
+        "int_name": "Akademija navuk",
+        "name": "Акадэмія навук",
+        "name:be": "Акадэмія навук",
+        "name:ru": "Академия наук",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5977205,
+          53.9211386
+        ]
+      },
+      "id": "node/538457980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491247",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6296816,
+          53.8748693
+        ]
+      },
+      "id": "node/538491247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491283",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6302496,
+          53.8751311
+        ]
+      },
+      "id": "node/538491283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491309",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6284268,
+          53.8760004
+        ]
+      },
+      "id": "node/538491309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491371",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6298679,
+          53.8758613
+        ]
+      },
+      "id": "node/538491371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491397",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6300302,
+          53.8758298
+        ]
+      },
+      "id": "node/538491397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538491398",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6300836,
+          53.8758194
+        ]
+      },
+      "id": "node/538491398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125893",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6268289,
+          53.8768118
+        ]
+      },
+      "id": "node/539125893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125895",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6270893,
+          53.8767682
+        ]
+      },
+      "id": "node/539125895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125897",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6276169,
+          53.8768028
+        ]
+      },
+      "id": "node/539125897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125899",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6298019,
+          53.8744894
+        ]
+      },
+      "id": "node/539125899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125901",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6303416,
+          53.8743852
+        ]
+      },
+      "id": "node/539125901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125906",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6294884,
+          53.8751171
+        ]
+      },
+      "id": "node/539125906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125907",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6295608,
+          53.8751022
+        ]
+      },
+      "id": "node/539125907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539125915",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6293716,
+          53.8762312
+        ]
+      },
+      "id": "node/539125915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/548324356",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6743406,
+          53.861134
+        ]
+      },
+      "id": "node/548324356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/548325644",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6748206,
+          53.8615411
+        ]
+      },
+      "id": "node/548325644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/566211398",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6147986,
+          53.8891626
+        ]
+      },
+      "id": "node/566211398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/566211404",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6153007,
+          53.8893149
+        ]
+      },
+      "id": "node/566211404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/566211415",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6158232,
+          53.8893999
+        ]
+      },
+      "id": "node/566211415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600910948",
+        "colour": "blue",
+        "int_name": "Barysaŭski trakt",
+        "name": "Барысаўскі тракт",
+        "name:be": "Барысаўскі тракт",
+        "name:ru": "Борисовский тракт",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6652795,
+          53.9385693
+        ]
+      },
+      "id": "node/600910948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/735088501",
+        "colour": "blue",
+        "int_name": "Akademija navuk",
+        "name": "Акадэмія навук",
+        "name:be": "Акадэмія навук",
+        "name:ru": "Академия наук",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6008023,
+          53.9220017
+        ]
+      },
+      "id": "node/735088501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/735088503",
+        "colour": "blue",
+        "int_name": "Akademija navuk",
+        "name": "Акадэмія навук",
+        "name:be": "Акадэмія навук",
+        "name:ru": "Академия наук",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6005341,
+          53.9223905
+        ]
+      },
+      "id": "node/735088503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/767183493",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5402828,
+          53.8849599
+        ]
+      },
+      "id": "node/767183493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/820683722",
+        "colour": "red",
+        "int_name": "Aŭtazavodskaja",
+        "name": "Аўтазаводская",
+        "name:be": "Аўтазаводская",
+        "name:ru": "Автозаводская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6502355,
+          53.86902
+        ]
+      },
+      "id": "node/820683722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/847593949",
+        "colour": "red",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5698295,
+          53.8937523
+        ]
+      },
+      "id": "node/847593949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/847593953",
+        "colour": "red",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5700114,
+          53.8939876
+        ]
+      },
+      "id": "node/847593953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/847594122",
+        "colour": "red",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5704001,
+          53.8935799
+        ]
+      },
+      "id": "node/847594122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502270",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5378693,
+          53.8858144
+        ]
+      },
+      "id": "node/848502270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502329",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5393605,
+          53.8850948
+        ]
+      },
+      "id": "node/848502329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502338",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5412329,
+          53.8863452
+        ]
+      },
+      "id": "node/848502338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502354",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5392907,
+          53.8860041
+        ]
+      },
+      "id": "node/848502354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502370",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5417905,
+          53.8865181
+        ]
+      },
+      "id": "node/848502370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502392",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5381965,
+          53.8863623
+        ]
+      },
+      "id": "node/848502392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502394",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5371517,
+          53.8862292
+        ]
+      },
+      "id": "node/848502394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502413",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5379824,
+          53.8859149
+        ]
+      },
+      "id": "node/848502413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502455",
+        "addr:city": "Мінск",
+        "addr:city:ru": "Минск",
+        "addr:country": "BY",
+        "addr:housenumber": "5Б",
+        "addr:street": "Магілёўская вуліца",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.539818,
+          53.8848145
+        ]
+      },
+      "id": "node/848502455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/848502472",
+        "colour": "blue",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5373034,
+          53.8865214
+        ]
+      },
+      "id": "node/848502472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/853052846",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5766617,
+          53.9099875
+        ]
+      },
+      "id": "node/853052846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/853052933",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5769581,
+          53.9102025
+        ]
+      },
+      "id": "node/853052933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/880780524",
+        "colour": "red",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5710706,
+          53.8940251
+        ]
+      },
+      "id": "node/880780524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/880780659",
+        "colour": "red",
+        "int_name": "Pieršamajskaja",
+        "name": "Першамайская",
+        "name:be": "Першамайская",
+        "name:ru": "Первомайская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5706769,
+          53.8942281
+        ]
+      },
+      "id": "node/880780659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570686",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6876625,
+          53.9449039
+        ]
+      },
+      "id": "node/897570686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570694",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.689735,
+          53.9455453
+        ]
+      },
+      "id": "node/897570694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570735",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.685895,
+          53.9452987
+        ]
+      },
+      "id": "node/897570735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570746",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6865869,
+          53.9445661
+        ]
+      },
+      "id": "node/897570746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570749",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6867808,
+          53.9455739
+        ]
+      },
+      "id": "node/897570749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570752",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6890081,
+          53.9462717
+        ]
+      },
+      "id": "node/897570752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570761",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6887333,
+          53.9452387
+        ]
+      },
+      "id": "node/897570761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/897570765",
+        "colour": "blue",
+        "int_name": "Uručča",
+        "name": "Уручча",
+        "name:be": "Уручча",
+        "name:ru": "Уручье",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6882141,
+          53.9460338
+        ]
+      },
+      "id": "node/897570765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/951804212",
+        "colour": "blue",
+        "name": "Плошча Леніна",
+        "name:be": "Плошча Леніна",
+        "name:ru": "Площадь Ленина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5481782,
+          53.8947106
+        ]
+      },
+      "id": "node/951804212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977707683",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6259944,
+          53.927308
+        ]
+      },
+      "id": "node/977707683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977707800",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6257796,
+          53.9275864
+        ]
+      },
+      "id": "node/977707800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977707880",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.626871,
+          53.9275521
+        ]
+      },
+      "id": "node/977707880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977708098",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6265988,
+          53.9278072
+        ]
+      },
+      "id": "node/977708098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1113122685",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "1-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6499729,
+          53.9338277
+        ]
+      },
+      "id": "node/1113122685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1113122694",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "1-2",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6505239,
+          53.933976
+        ]
+      },
+      "id": "node/1113122694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1113128793",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "3-2",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6529708,
+          53.9346398
+        ]
+      },
+      "id": "node/1113128793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1113128802",
+        "colour": "blue",
+        "int_name": "Uschod",
+        "name": "Усход",
+        "name:be": "Усход",
+        "name:ru": "Восток",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "3-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.652438,
+          53.9344973
+        ]
+      },
+      "id": "node/1113128802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1119753405",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4387717,
+          53.9066111
+        ]
+      },
+      "id": "node/1119753405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1119753644",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4395839,
+          53.9070857
+        ]
+      },
+      "id": "node/1119753644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1119753948",
+        "check_date:wheelchair": "2022-09-24",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4388189,
+          53.9071223
+        ]
+      },
+      "id": "node/1119753948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1119754198",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4394757,
+          53.9065771
+        ]
+      },
+      "id": "node/1119754198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1180352552",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5211355,
+          53.9065839
+        ]
+      },
+      "id": "node/1180352552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1180352635",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5214001,
+          53.9063106
+        ]
+      },
+      "id": "node/1180352635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1256857275",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.628974,
+          53.9284713
+        ]
+      },
+      "id": "node/1256857275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1285463739",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5851459,
+          53.9160763
+        ]
+      },
+      "id": "node/1285463739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1285463741",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.585242,
+          53.9161437
+        ]
+      },
+      "id": "node/1285463741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1347501447",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6272406,
+          53.8767435
+        ]
+      },
+      "id": "node/1347501447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1382274481",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5374843,
+          53.8860921
+        ]
+      },
+      "id": "node/1382274481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1635225344",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5255886,
+          53.9062196
+        ]
+      },
+      "id": "node/1635225344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1638811341",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.627917,
+          53.8768166
+        ]
+      },
+      "id": "node/1638811341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1783406129",
+        "colour": "red",
+        "int_name": "Kamiennaja Horka",
+        "name": "Каменная Горка",
+        "name:be": "Каменная Горка",
+        "name:ru": "Каменная Горка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4350486,
+          53.9073863
+        ]
+      },
+      "id": "node/1783406129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1786142244",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6751423,
+          53.8620741
+        ]
+      },
+      "id": "node/1786142244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1821354655",
+        "colour": "blue",
+        "int_name": "Hrušaŭka",
+        "name": "Грушаўка",
+        "name:be": "Грушаўка",
+        "name:ru": "Грушевка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5140551,
+          53.8866738
+        ]
+      },
+      "id": "node/1821354655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1822083190",
+        "colour": "blue",
+        "int_name": "plošča Jakuba Kolasa",
+        "name": "Плошча Якуба Коласа",
+        "name:be": "Плошча Якуба Коласа",
+        "name:ru": "Площадь Якуба Коласа",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5852641,
+          53.9168199
+        ]
+      },
+      "id": "node/1822083190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838821286",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6142308,
+          53.8905461
+        ]
+      },
+      "id": "node/1838821286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838821347",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-2",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6137707,
+          53.8909333
+        ]
+      },
+      "id": "node/1838821347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2012415463",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5257298,
+          53.9062457
+        ]
+      },
+      "id": "node/2012415463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2012415465",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5239939,
+          53.9059382
+        ]
+      },
+      "id": "node/2012415465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026018",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4870703,
+          53.8650752
+        ]
+      },
+      "id": "node/2140026018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026021",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4851967,
+          53.8635068
+        ]
+      },
+      "id": "node/2140026021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026028",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4848718,
+          53.8645309
+        ]
+      },
+      "id": "node/2140026028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026029",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4869093,
+          53.8656638
+        ]
+      },
+      "id": "node/2140026029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026030",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.486519,
+          53.8653365
+        ]
+      },
+      "id": "node/2140026030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026034",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4853399,
+          53.8645547
+        ]
+      },
+      "id": "node/2140026034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140026035",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4860545,
+          53.8642315
+        ]
+      },
+      "id": "node/2140026035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140038317",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4845674,
+          53.8642927
+        ]
+      },
+      "id": "node/2140038317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142620026",
+        "colour": "blue",
+        "int_name": "Hrušaŭka",
+        "name": "Грушаўка",
+        "name:be": "Грушаўка",
+        "name:ru": "Грушевка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.515251,
+          53.8871122
+        ]
+      },
+      "id": "node/2142620026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142620029",
+        "colour": "blue",
+        "int_name": "Hrušaŭka",
+        "name": "Грушаўка",
+        "name:be": "Грушаўка",
+        "name:ru": "Грушевка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.51438,
+          53.8863076
+        ]
+      },
+      "id": "node/2142620029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142620916",
+        "colour": "blue",
+        "int_name": "Hrušaŭka",
+        "name": "Грушаўка",
+        "name:be": "Грушаўка",
+        "name:ru": "Грушевка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5155377,
+          53.8867249
+        ]
+      },
+      "id": "node/2142620916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148853993",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5770575,
+          53.9098319
+        ]
+      },
+      "id": "node/2148853993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148853994",
+        "colour": "blue",
+        "int_name": "Plošča Pieramohi",
+        "name": "Плошча Перамогі",
+        "name:be": "Плошча Перамогі",
+        "name:ru": "Площадь Победы",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5773347,
+          53.9100329
+        ]
+      },
+      "id": "node/2148853994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341070998",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5242982,
+          53.9057379
+        ]
+      },
+      "id": "node/2341070998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2357639062",
+        "colour": "red",
+        "int_name": "Pralietarskaja",
+        "name": "Пралетарская",
+        "name:be": "Пралетарская",
+        "name:en": "Proletarskaya",
+        "name:ru": "Пролетарская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5849203,
+          53.8910184
+        ]
+      },
+      "id": "node/2357639062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2388172995",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5398423,
+          53.8853897
+        ]
+      },
+      "id": "node/2388172995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2388172997",
+        "colour": "blue",
+        "int_name": "Instytut Kuĺtury",
+        "name": "Інстытут Культуры",
+        "name:be": "Інстытут Культуры",
+        "name:ru": "Институт Культуры",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5393212,
+          53.8852248
+        ]
+      },
+      "id": "node/2388172997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2415195845",
+        "colour": "red",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5259112,
+          53.9067911
+        ]
+      },
+      "id": "node/2415195845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454073539",
+        "colour": "blue",
+        "int_name": "Michalova",
+        "name": "Міхалова",
+        "name:be": "Міхалова",
+        "name:en": "Michalova",
+        "name:ru": "Михалово",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4968635,
+          53.8771719
+        ]
+      },
+      "id": "node/2454073539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454080848",
+        "colour": "blue",
+        "int_name": "Michalova",
+        "name": "Міхалова",
+        "name:be": "Міхалова",
+        "name:en": "Michalova",
+        "name:ru": "Михалово",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4974828,
+          53.8769783
+        ]
+      },
+      "id": "node/2454080848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2478162834",
+        "colour": "red",
+        "int_name": "Pralietarskaja",
+        "name": "Пралетарская",
+        "name:be": "Пралетарская",
+        "name:en": "Proletarskaya",
+        "name:ru": "Пролетарская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5857512,
+          53.8896147
+        ]
+      },
+      "id": "node/2478162834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2661119799",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6734629,
+          53.8624587
+        ]
+      },
+      "id": "node/2661119799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2663144713",
+        "colour": "red",
+        "int_name": "Traktarny zavod",
+        "name": "Трактарны завод",
+        "name:be": "Трактарны завод",
+        "name:ru": "Тракторный завод",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "1-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6165735,
+          53.8899178
+        ]
+      },
+      "id": "node/2663144713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2789072818",
+        "colour": "red",
+        "int_name": "Pralietarskaja",
+        "name": "Пралетарская",
+        "name:be": "Пралетарская",
+        "name:en": "Proletarskaya",
+        "name:ru": "Пролетарская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5855614,
+          53.8906108
+        ]
+      },
+      "id": "node/2789072818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833298558",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4746443,
+          53.8504077
+        ]
+      },
+      "id": "node/2833298558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833298561",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4753394,
+          53.8503088
+        ]
+      },
+      "id": "node/2833298561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833298563",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.475518,
+          53.8507557
+        ]
+      },
+      "id": "node/2833298563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833298566",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "mapillary": "307454824275579",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "start_date": "2014",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4748204,
+          53.8508367
+        ]
+      },
+      "id": "node/2833298566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833318186",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4750233,
+          53.8495306
+        ]
+      },
+      "id": "node/2833318186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2864374343",
+        "colour": "blue",
+        "int_name": "Michalova",
+        "name": "Міхалова",
+        "name:be": "Міхалова",
+        "name:en": "Michalova",
+        "name:ru": "Михалово",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4962619,
+          53.8762248
+        ]
+      },
+      "id": "node/2864374343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2864374353",
+        "colour": "blue",
+        "int_name": "Michalova",
+        "name": "Міхалова",
+        "name:be": "Міхалова",
+        "name:en": "Michalova",
+        "name:ru": "Михалово",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4969787,
+          53.8761941
+        ]
+      },
+      "id": "node/2864374353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2870828644",
+        "colour": "blue",
+        "int_name": "Maskoŭskaja",
+        "name": "Маскоўская",
+        "name:be": "Маскоўская",
+        "name:ru": "Московская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6293208,
+          53.9281009
+        ]
+      },
+      "id": "node/2870828644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2911576791",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4746172,
+          53.8485974
+        ]
+      },
+      "id": "node/2911576791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2911576792",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4738439,
+          53.8486906
+        ]
+      },
+      "id": "node/2911576792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2911576795",
+        "access": "yes",
+        "colour": "blue",
+        "highway": "elevator",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4747095,
+          53.8486369
+        ]
+      },
+      "id": "node/2911576795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2911576796",
+        "access": "yes",
+        "colour": "blue",
+        "highway": "elevator",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4738216,
+          53.8488306
+        ]
+      },
+      "id": "node/2911576796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2939804388",
+        "colour": "red",
+        "int_name": "Frunzienskaja",
+        "name": "Фрунзенская",
+        "name:be": "Фрунзенская",
+        "name:ru": "Фрунзенская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.53787,
+          53.9054065
+        ]
+      },
+      "id": "node/2939804388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3198335093",
+        "access": "yes",
+        "colour": "blue",
+        "highway": "elevator",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.474171,
+          53.8495798
+        ]
+      },
+      "id": "node/3198335093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3198335094",
+        "access": "yes",
+        "colour": "blue",
+        "highway": "elevator",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.47508,
+          53.8494079
+        ]
+      },
+      "id": "node/3198335094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3323161575",
+        "int_name": "Kastryčnickaja/Kupalaŭskaja",
+        "name": "Кастрычніцкая/Купалаўская",
+        "name:be": "Кастрычніцкая/Купалаўская",
+        "name:ru": "Октябрьская/Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "2-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5604042,
+          53.9015171
+        ]
+      },
+      "id": "node/3323161575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3323161576",
+        "int_name": "Kastryčnickaja/Kupalaŭskaja",
+        "layer": "-1",
+        "name": "Кастрычніцкая/Купалаўская",
+        "name:be": "Кастрычніцкая/Купалаўская",
+        "name:ru": "Октябрьская/Купаловская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "1-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5608028,
+          53.9012319
+        ]
+      },
+      "id": "node/3323161576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439005105",
+        "colour": "blue",
+        "int_name": "Malinaŭka",
+        "name": "Малінаўка",
+        "name:be": "Малінаўка",
+        "name:en": "Malinaŭka",
+        "name:ru": "Малиновка",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4743198,
+          53.8496832
+        ]
+      },
+      "id": "node/3439005105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3503605667",
+        "colour": "red",
+        "int_name": "Mahilioŭskaja",
+        "name": "Магілёўская",
+        "name:be": "Магілёўская",
+        "name:ru": "Могилёвская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6735459,
+          53.8613519
+        ]
+      },
+      "id": "node/3503605667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3582931137",
+        "colour": "red",
+        "int_name": "Pralietarskaja",
+        "name": "Пралетарская",
+        "name:be": "Пралетарская",
+        "name:en": "Proletarskaya",
+        "name:ru": "Пролетарская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5857671,
+          53.8904386
+        ]
+      },
+      "id": "node/3582931137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3724930759",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4873703,
+          53.8652682
+        ]
+      },
+      "id": "node/3724930759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3727336431",
+        "colour": "blue",
+        "name": "Парк Чалюскінцаў",
+        "name:be": "Парк Чалюскінцаў",
+        "name:ru": "Парк Челюскинцев",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6121776,
+          53.9236871
+        ]
+      },
+      "id": "node/3727336431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3789175888",
+        "colour": "red",
+        "elevator": "yes",
+        "int_name": "Maladziožnaja",
+        "name": "Маладзёжная",
+        "name:be": "Маладзёжная",
+        "name:ru": "Молодёжная",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5261606,
+          53.9063919
+        ]
+      },
+      "id": "node/3789175888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198953546",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6281564,
+          53.8774449
+        ]
+      },
+      "id": "node/4198953546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4717522439",
+        "colour": "blue",
+        "int_name": "Kastryčnickaja",
+        "name": "Кастрычніцкая",
+        "name:be": "Кастрычніцкая",
+        "name:ru": "Октябрьская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "ref": "4-2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5633677,
+          53.9029805
+        ]
+      },
+      "id": "node/4717522439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078295714",
+        "colour": "blue",
+        "int_name": "Piatroŭščyna",
+        "name": "Пятроўшчына",
+        "name:be": "Пятроўшчына",
+        "name:ru": "Петровщина",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4846655,
+          53.8639879
+        ]
+      },
+      "id": "node/5078295714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110637099",
+        "colour": "blue",
+        "name": "Плошча Леніна",
+        "name:be": "Плошча Леніна",
+        "name:ru": "Площадь Ленина",
+        "network": "Минский метрополитен",
+        "network:be": "Мінскі метрапалітэн",
+        "network:ru": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.547862,
+          53.8915483
+        ]
+      },
+      "id": "node/5110637099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6323439289",
+        "colour": "green",
+        "int_name": "Kavaĺskaja Slabada",
+        "name": "Кавальская Слабада",
+        "name:be": "Кавальская Слабада",
+        "name:ru": "Ковальская Слобода",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "start_date": "2020",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5500199,
+          53.8772652
+        ]
+      },
+      "id": "node/6323439289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6323439290",
+        "colour": "green",
+        "int_name": "Kavaĺskaja Slabada",
+        "name": "Кавальская Слабада",
+        "name:be": "Кавальская Слабада",
+        "name:ru": "Ковальская Слобода",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "start_date": "2020",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5492697,
+          53.8773179
+        ]
+      },
+      "id": "node/6323439290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6323439291",
+        "colour": "green",
+        "int_name": "Kavaĺskaja Slabada",
+        "name": "Кавальская Слабада",
+        "name:be": "Кавальская Слабада",
+        "name:ru": "Ковальская Слобода",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "start_date": "2020",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5501551,
+          53.8780521
+        ]
+      },
+      "id": "node/6323439291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6323439292",
+        "colour": "green",
+        "int_name": "Kavaĺskaja Slabada",
+        "name": "Кавальская Слабада",
+        "name:be": "Кавальская Слабада",
+        "name:ru": "Ковальская Слобода",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "start_date": "2020",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5494291,
+          53.8781008
+        ]
+      },
+      "id": "node/6323439292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8085918546",
+        "colour": "green",
+        "int_name": "Jubiliejnaja plošča",
+        "name": "Юбілейная плошча",
+        "name:be": "Юбілейная плошча",
+        "name:ru": "Юбилейная площадь",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5408278,
+          53.9049413
+        ]
+      },
+      "id": "node/8085918546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590195",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5368467,
+          53.8963749
+        ]
+      },
+      "id": "node/8087590195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590197",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5370569,
+          53.8968303
+        ]
+      },
+      "id": "node/8087590197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590199",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5378594,
+          53.8971734
+        ]
+      },
+      "id": "node/8087590199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590200",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5386144,
+          53.8970826
+        ]
+      },
+      "id": "node/8087590200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590203",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5389097,
+          53.8961519
+        ]
+      },
+      "id": "node/8087590203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087590205",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5391261,
+          53.8965506
+        ]
+      },
+      "id": "node/8087590205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8089031380",
+        "colour": "green",
+        "int_name": "Plošča Franciška Bahuševiča",
+        "name": "Плошча Францішка Багушэвіча",
+        "name:be": "Плошча Францішка Багушэвіча",
+        "name:ru": "Площадь Франтишка Богушевича",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5378917,
+          53.8958441
+        ]
+      },
+      "id": "node/8089031380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8109217628",
+        "colour": "green",
+        "entrance": "main",
+        "int_name": "Vakzaĺnaja",
+        "name": "Вакзальная",
+        "name:be": "Вакзальная",
+        "name:ru": "Вокзальная",
+        "network": "Минский метрополитен",
+        "network:be": "Мінскі метрапалітэн",
+        "network:ru": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5476402,
+          53.8895643
+        ]
+      },
+      "id": "node/8109217628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9294122841",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5485225,
+          53.8689433
+        ]
+      },
+      "id": "node/9294122841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9294122847",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5476359,
+          53.8691513
+        ]
+      },
+      "id": "node/9294122847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9552408540",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5455063,
+          53.8669452
+        ]
+      },
+      "id": "node/9552408540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9552408547",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5462649,
+          53.8666892
+        ]
+      },
+      "id": "node/9552408547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9609437942",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5477147,
+          53.8678823
+        ]
+      },
+      "id": "node/9609437942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12185377499",
+        "colour": "green",
+        "int_name": "Slucki Hasciniec",
+        "name": "Слуцкі Гасцінец",
+        "name:be": "Слуцкі Гасцінец",
+        "name:ru": "Слуцкий Гостинец",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5341329,
+          53.8424948
+        ]
+      },
+      "id": "node/12185377499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12450057668",
+        "colour": "green",
+        "int_name": "Niemaršanski Sad",
+        "name": "Немаршанскі Сад",
+        "name:be": "Немаршанскі Сад",
+        "name:en": "Niemaršanski Sad",
+        "name:ru": "Неморшанский Сад",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5369251,
+          53.8496669
+        ]
+      },
+      "id": "node/12450057668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12450057670",
+        "colour": "green",
+        "int_name": "Niemaršanski Sad",
+        "name": "Немаршанскі Сад",
+        "name:be": "Немаршанскі Сад",
+        "name:en": "Niemaršanski Sad",
+        "name:ru": "Неморшанский Сад",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5363092,
+          53.8499468
+        ]
+      },
+      "id": "node/12450057670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12450057673",
+        "colour": "green",
+        "int_name": "Niemaršanski Sad",
+        "name": "Немаршанскі Сад",
+        "name:be": "Немаршанскі Сад",
+        "name:en": "Niemaršanski Sad",
+        "name:ru": "Неморшанский Сад",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5372797,
+          53.8505909
+        ]
+      },
+      "id": "node/12450057673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12450057675",
+        "colour": "green",
+        "int_name": "Niemaršanski Sad",
+        "name": "Немаршанскі Сад",
+        "name:be": "Немаршанскі Сад",
+        "name:en": "Niemaršanski Sad",
+        "name:ru": "Неморшанский Сад",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5366051,
+          53.8506779
+        ]
+      },
+      "id": "node/12450057675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12495842226",
+        "colour": "green",
+        "int_name": "Slucki Hasciniec",
+        "name": "Слуцкі Гасцінец",
+        "name:be": "Слуцкі Гасцінец",
+        "name:ru": "Слуцкий Гостинец",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5333662,
+          53.8426033
+        ]
+      },
+      "id": "node/12495842226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13277117568",
+        "colour": "green",
+        "int_name": "Aeradromnaja",
+        "name": "Аэрадромная",
+        "name:be": "Аэрадромная",
+        "name:en": "Aeradromnaja",
+        "name:ru": "Аэродромная",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.547063,
+          53.8684418
+        ]
+      },
+      "id": "node/13277117568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13390004076",
+        "colour": "green",
+        "int_name": "Jubiliejnaja plošča",
+        "name": "Юбілейная плошча",
+        "name:be": "Юбілейная плошча",
+        "name:ru": "Юбилейная площадь",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.540478,
+          53.9050361
+        ]
+      },
+      "id": "node/13390004076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14045528448",
+        "colour": "red",
+        "int_name": "Partyzanskaja",
+        "name": "Партызанская",
+        "name:be": "Партызанская",
+        "name:ru": "Партизанская",
+        "network": "Минский метрополитен",
+        "railway": "subway_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6298071,
+          53.8758731
+        ]
+      },
+      "id": "node/14045528448"
+    }
+  ]
+}

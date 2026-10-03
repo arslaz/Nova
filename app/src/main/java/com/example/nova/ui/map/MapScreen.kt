@@ -1,9 +1,6 @@
 package com.example.nova.ui.map
 
-import android.content.res.AssetManager
-import android.text.Layout
 import android.util.Log
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Arrangement
@@ -20,8 +17,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.Button
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import org.maplibre.compose.camera.CameraPosition
@@ -43,15 +38,12 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconToggleButton
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.Font
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.style.LineHeightStyle
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.sp
-import kotlinx.coroutines.launch
+import com.example.nova.R
 import org.maplibre.compose.camera.CameraUpdate
 import org.maplibre.compose.expressions.dsl.const
 import org.maplibre.compose.expressions.dsl.image
@@ -60,8 +52,6 @@ import org.maplibre.compose.expressions.dsl.linear
 import org.maplibre.compose.expressions.dsl.zoom
 import org.maplibre.compose.interaction.ClickResult
 import org.maplibre.compose.interaction.MapInteractions
-import org.maplibre.compose.layers.CircleLayer
-import org.maplibre.compose.layers.LineLayer
 import org.maplibre.compose.layers.LocationIndicatorLayer
 import org.maplibre.compose.layers.SymbolLayer
 import org.maplibre.compose.location.LocationPermission
@@ -74,14 +64,16 @@ import org.maplibre.compose.map.LocalMapState
 import org.maplibre.compose.map.MapState
 import org.maplibre.compose.sources.GeoJsonData
 import org.maplibre.compose.sources.rememberGeoJsonSource
-import org.maplibre.compose.sources.rememberImageSource
-import org.maplibre.nativeffi.style.StyleImage
 import org.maplibre.spatialk.geojson.toJson
-import org.maplibre.compose.expressions.dsl.get
 import org.maplibre.compose.expressions.dsl.Feature
 import org.maplibre.compose.expressions.dsl.asString
 import org.maplibre.compose.expressions.dsl.format
 import org.maplibre.compose.expressions.dsl.span
+import org.maplibre.compose.expressions.value.SymbolAnchor
+import org.maplibre.compose.layers.Anchor
+import org.maplibre.compose.sources.rememberImageSource
+import org.maplibre.compose.expressions.dsl.*
+import org.maplibre.compose.expressions.dsl.Feature.get
 
 @Composable
 fun MyMap(viewModel: MapViewModel = viewModel()) {
@@ -94,6 +86,7 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
         val isSettingsChecked = viewModel.isSettingsChecked
         val isMapChecked = viewModel.isMapChecked
         val isLightMapThemes = viewModel.isLightMapThemes
+
         val locationProvider = rememberDefaultLocationProvider()
         val headingProvider = rememberDefaultHeadingProvider()
 
@@ -122,34 +115,7 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
                     }
 
                 }
-                val context = LocalContext.current
-                val geojson = remember {
-                    context.assets.open("export.geojson")
-                        .bufferedReader()
-                        .use { it.readText() }
-                }
-//                val imageBusStop = StyleImage()
-                val busStopMinsk =
-                    rememberGeoJsonSource(GeoJsonData.JsonString(geojson))
-                SymbolLayer(
-                    id = "bus-stop-Minsk-icon",
-                    source = busStopMinsk,
-                    iconImage = image("bus"),
-                    onClick = { features ->
-                        Log.d("clicke","Clicked on ${features[0].toJson()}")
-                        ClickResult.Consume
-                    },
-                    iconAllowOverlap = const(true),
-                    iconOpacity = interpolate(linear(),zoom(),13.0 to const(0.0f), 14.0 to const(1.0f))
-                )
-                SymbolLayer(
-                    id = "bus-stop-Minsk-text",
-                    source = busStopMinsk,
-                    textField = format(span(Feature.get("name").asString())),
-                    textFont = const(listOf("Noto Sans Regular")),
-                    textSize = const(8.sp),
-                    textOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f))
-                )
+                MapLayers()
             }
 
         MapScreen(viewModel, locationState, mapState)
@@ -323,4 +289,132 @@ fun MapZoom(
             }
     )
 
+}
+
+@Composable
+fun MapLayers(){
+    val context = LocalContext.current
+    val geojsonBusStopMinsk = remember {
+        context.assets.open("bus_stop_minsk.geojson")
+            .bufferedReader()
+            .use { it.readText() }
+    }
+    val geojsonSubwayMinsk = remember {
+        context.assets.open("metro_minsk.geojson")
+            .bufferedReader()
+            .use { it.readText() }
+    }
+    val geojsonExitSubwayMinsk = remember {
+        context.assets.open("metro_exit_minsk.geojson")
+            .bufferedReader()
+            .use { it.readText() }
+    }
+
+    val busStopMinsk =
+        rememberGeoJsonSource(GeoJsonData.JsonString(geojsonBusStopMinsk))
+    val metroMinsk =
+        rememberGeoJsonSource(GeoJsonData.JsonString(geojsonSubwayMinsk))
+    val metroExitMinsk =
+        rememberGeoJsonSource(GeoJsonData.JsonString(geojsonExitSubwayMinsk))
+
+    // Bus stop Minsk
+    SymbolLayer(
+        id = "bus-stop-Minsk",
+        source = busStopMinsk,
+        iconImage = image("bus"),
+        iconSize = const(0.7f),
+        onClick = { features ->
+            Log.d("clicke","Clicked on ${features[0].toJson()}")
+            ClickResult.Consume
+        },
+        iconAllowOverlap = const(true),
+        iconOpacity = interpolate(linear(),zoom(),13.0 to const(0.0f), 14.0 to const(1.0f)),
+        textField = format(span(Feature.get("name:ru").asString())),
+        textFont = const(listOf("Noto Sans Regular")),
+        textSize = const(8.sp),
+        textAnchor = const(SymbolAnchor.Top),
+        textOffset = const(Offset(0.0f, 0.7f)).cast(),
+        textOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f))
+    )
+
+    SymbolLayer(
+        id = "metro-exit-Nline-Minsk",
+        source = metroExitMinsk,
+        iconImage = switch(
+            get("colour").asString(),
+            listOf(
+                case("blue", image(painterResource(R.drawable.number_one_minsk_metro))),
+                case("red", image(painterResource(R.drawable.number_two_minsk_metro)))
+            ),
+            fallback = image(painterResource(R.drawable.number_three_minsk_metro))
+        ),
+        iconSize = const(0.5f),
+        iconAllowOverlap = const(true),
+        iconAnchor = const(SymbolAnchor.Left),
+        iconOpacity = interpolate(linear(), zoom(), 15.0 to const(0.0f), 16.0 to const(1.0f)),
+        iconOffset = const(Offset(25.0f, 0.0f)).cast(),
+    )
+
+    // Metro exit Minsk
+    SymbolLayer(
+        id = "metro-exit-Minsk",
+        source = metroExitMinsk,
+        iconImage = image(painterResource(R.drawable.ic_metro_minsk)),
+        iconSize = const(1.0f),
+        onClick = { features ->
+            Log.d("clicke","Clicked on ${features[0].toJson()}")
+            ClickResult.Consume
+        },
+        iconAllowOverlap = const(true),
+        iconOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f)),
+        textField = format(
+            span(Feature.get("name:ru").asString()),
+            span(const("\nВыход ")),
+            span(Feature.get("ref").asString())
+        ),
+        textFont = const(listOf("Noto Sans Regular")),
+        textSize = const(9.sp),
+        textAnchor = const(SymbolAnchor.Top),
+        textOffset = const(Offset(0.0f, 0.7f)).cast(),
+        textOpacity = interpolate(linear(),zoom(),15.0 to const(0.0f), 16.0 to const(1.0f))
+    )
+
+    // Metro Minsk Number line
+    SymbolLayer(
+        id = "metro-stop-Nline-Minsk",
+        source = metroMinsk,
+        iconImage = switch(
+            get("colour").asString(),
+            listOf(
+                case("blue", image(painterResource(R.drawable.number_one_minsk_metro))),
+                case("red", image(painterResource(R.drawable.number_two_minsk_metro)))
+            ),
+            fallback = image(painterResource(R.drawable.number_three_minsk_metro))
+        ),
+        iconSize = const(0.5f),
+        iconAllowOverlap = const(true),
+        iconAnchor = const(SymbolAnchor.Left),
+        iconOpacity = interpolate(linear(), zoom(), 12.0 to const(0.0f), 13.0 to const(1.0f), 14.0 to const(1.0f), 15.0 to const(0.0f)),
+        iconOffset = const(Offset(25.0f, 0.0f)).cast(),
+    )
+
+    // Metro Minsk
+    SymbolLayer(
+        id = "metro-stop-Minsk",
+        source = metroMinsk,
+        iconImage = image(painterResource(R.drawable.ic_metro_minsk)),
+        iconSize = const(1.0f),
+        onClick = { features ->
+            Log.d("clicke","Clicked on ${features[0].toJson()}")
+            ClickResult.Consume
+        },
+        iconAllowOverlap = const(true),
+        iconOpacity = interpolate(linear(),zoom(),11.0 to const(0.0f), 12.0 to const(1.0f), 14.0 to const(1.0f), 15.0 to const(0.0f)),
+        textField = format(span(Feature.get("name:ru").asString())),
+        textFont = const(listOf("Noto Sans Regular")),
+        textSize = const(9.sp),
+        textAnchor = const(SymbolAnchor.Top),
+        textOffset = const(Offset(0.0f, 0.7f)).cast(),
+        textOpacity = interpolate(linear(),zoom(),11.0 to const(0.0f), 12.0 to const(1.0f), 14.0 to const(1.0f), 15.0 to const(0.0f))
+    )
 }
