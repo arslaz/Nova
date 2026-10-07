@@ -1,3 +1,4 @@
+@file:OptIn(ExperimentalMaterial3Api::class)
 package com.example.nova.ui.map
 
 import android.util.Log
@@ -34,15 +35,21 @@ import androidx.compose.material.icons.filled.NearMe
 import androidx.compose.material.icons.filled.Place
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconToggleButton
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.Text
+import androidx.compose.material3.rememberModalBottomSheetState
+
 import androidx.compose.runtime.remember
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.ViewModel
 import com.example.nova.R
 import org.maplibre.compose.camera.CameraUpdate
 import org.maplibre.compose.expressions.dsl.const
@@ -74,6 +81,9 @@ import org.maplibre.compose.layers.Anchor
 import org.maplibre.compose.sources.rememberImageSource
 import org.maplibre.compose.expressions.dsl.*
 import org.maplibre.compose.expressions.dsl.Feature.get
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.json.Json
 
 @Composable
 fun MyMap(viewModel: MapViewModel = viewModel()) {
@@ -86,6 +96,7 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
         val isSettingsChecked = viewModel.isSettingsChecked
         val isMapChecked = viewModel.isMapChecked
         val isLightMapThemes = viewModel.isLightMapThemes
+        val showBottomSheet = viewModel.selectStop
 
         val locationProvider = rememberDefaultLocationProvider()
         val headingProvider = rememberDefaultHeadingProvider()
@@ -146,6 +157,10 @@ fun MyMap(viewModel: MapViewModel = viewModel()) {
             }
 
         )
+
+        if (showBottomSheet != null){
+            MapBottomSheet()
+        }
     }
 
 }
@@ -292,10 +307,12 @@ fun MapZoom(
 }
 
 @Composable
-fun MapLayers(){
+fun MapLayers(
+    viewModel: MapViewModel = viewModel(),
+){
     val context = LocalContext.current
     val geojsonBusStopMinsk = remember {
-        context.assets.open("bus_stop_minsk.geojson")
+        context.assets.open("stops.geojson")
             .bufferedReader()
             .use { it.readText() }
     }
@@ -316,27 +333,34 @@ fun MapLayers(){
         rememberGeoJsonSource(GeoJsonData.JsonString(geojsonSubwayMinsk))
     val metroExitMinsk =
         rememberGeoJsonSource(GeoJsonData.JsonString(geojsonExitSubwayMinsk))
-
     // Bus stop Minsk
     SymbolLayer(
         id = "bus-stop-Minsk",
         source = busStopMinsk,
-        iconImage = image("bus"),
-        iconSize = const(0.7f),
+        iconImage = switch(
+            input = get("type").asString(),
+            cases = listOf(
+                case("bus", image(painterResource(R.drawable.ic_bus_stop))),
+                case("trolleybus", image(painterResource(R.drawable.ic_trolleybus_stop)))
+            ),
+            fallback = image(painterResource(R.drawable.ic_tram_stop))
+        ),
+        iconSize = const(0.85f),
         onClick = { features ->
-            Log.d("clicke","Clicked on ${features[0].toJson()}")
+            viewModel.onBottomSheet(Json.decodeFromString<Root>(features[0].toJson()))
             ClickResult.Consume
         },
         iconAllowOverlap = const(true),
         iconOpacity = interpolate(linear(),zoom(),13.0 to const(0.0f), 14.0 to const(1.0f)),
-        textField = format(span(Feature.get("name:ru").asString())),
+        textField = format(span(Feature.get("name").asString())),
         textFont = const(listOf("Noto Sans Regular")),
         textSize = const(8.sp),
         textAnchor = const(SymbolAnchor.Top),
-        textOffset = const(Offset(0.0f, 0.7f)).cast(),
+        textOffset = const(Offset(0.0f, 0.8f)).cast(),
         textOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f))
     )
 
+    // Metro exit number
     SymbolLayer(
         id = "metro-exit-Nline-Minsk",
         source = metroExitMinsk,
@@ -368,7 +392,7 @@ fun MapLayers(){
         iconAllowOverlap = const(true),
         iconOpacity = interpolate(linear(),zoom(),14.0 to const(0.0f), 15.0 to const(1.0f)),
         textField = format(
-            span(Feature.get("name:ru").asString()),
+            span(Feature.get("name").asString()),
             span(const("\nВыход ")),
             span(Feature.get("ref").asString())
         ),
@@ -410,11 +434,29 @@ fun MapLayers(){
         },
         iconAllowOverlap = const(true),
         iconOpacity = interpolate(linear(),zoom(),11.0 to const(0.0f), 12.0 to const(1.0f), 14.0 to const(1.0f), 15.0 to const(0.0f)),
-        textField = format(span(Feature.get("name:ru").asString())),
+        textField = format(span(Feature.get("name").asString())),
         textFont = const(listOf("Noto Sans Regular")),
         textSize = const(9.sp),
         textAnchor = const(SymbolAnchor.Top),
         textOffset = const(Offset(0.0f, 0.7f)).cast(),
         textOpacity = interpolate(linear(),zoom(),11.0 to const(0.0f), 12.0 to const(1.0f), 14.0 to const(1.0f), 15.0 to const(0.0f))
     )
+}
+
+@Composable
+fun MapBottomSheet(viewModel: MapViewModel = viewModel()){
+    val sheetState = rememberModalBottomSheetState(
+        skipPartiallyExpanded = false,
+    )
+    ModalBottomSheet(
+        modifier = Modifier.fillMaxHeight(),
+        sheetState = sheetState,
+        onDismissRequest = { viewModel.offBottomSheet()}
+    ) {
+        val selectStop = viewModel.selectStop
+        Text(
+            selectStop .toString(),
+            modifier = Modifier.padding(16.dp)
+        )
+    }
 }
